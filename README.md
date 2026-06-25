@@ -1,44 +1,38 @@
-# 🎮 Game Project Refactor
+# 📚 Generic List Implementation
 
-A console-based Math Game that was refactored using Object-Oriented Programming (OOP) principles and clean code practices.
+A custom implementation of a Generic List data structure built from scratch using C#.
+
+This project was created to understand how collections work internally and to practice Object-Oriented Programming concepts.
+
+---
 
 ## 📌 Project Overview
 
-This project demonstrates the process of refactoring an existing game application by improving code organization, readability, maintainability, and extensibility.
+The goal of this project is to recreate the behavior of `List<T>` without relying on the built-in implementation.
 
-The original version contained tightly coupled code, while the refactored version follows better software design practices.
+The project focuses on managing dynamic arrays, handling resizing operations, and implementing common collection functionality.
 
 ---
 
 ## 🚀 Features
 
-- Multiple difficulty levels (Easy, Medium, Hard)
-- Random math question generation
-- Score tracking
-- Game statistics
-- Level management
-- Better code organization
-- Cleaner architecture
+- Add elements
+- Remove elements
+- Search for elements
+- Insert at specific index
+- Clear collection
+- Indexer support
+- Generic type support
+- Dynamic resizing
+- Enumeration support
 
 ---
 
 ## 🏗️ Project Structure
 
 ```text
-GameProjectRefactor
+GenericList
 │
-├── Question
-│   ├── IQuestion.cs
-│   └── Question.cs
-│
-├── Level
-│   ├── BaseLevel.cs
-│   ├── EasyLevel.cs
-│   ├── MediumLevel.cs
-│   ├── HardLevel.cs
-│   └── LevelManager.cs
-│
-├── MathGame.cs
-├── Difficulty.cs
-├── Statistics.cs
-└── Program.cs
+├── GenericList.cs
+├── Program.cs
+└── GenericList.csproj
