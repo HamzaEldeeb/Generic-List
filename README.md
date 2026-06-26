@@ -116,6 +116,7 @@ During this project I learned:
 - Designing reusable and maintainable code.
 - Applying OOP principles.
 - Building custom data structures from scratch.
+- Problem Solving.
 
 ---
 
