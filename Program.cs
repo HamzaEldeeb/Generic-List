@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            List<string> list = new List<string>();
+            GenericList<string> list = new GenericList<string>;
             list.Add("Hamza");
             list.Add("Eldeeb");
             list.Add("Bakry");
